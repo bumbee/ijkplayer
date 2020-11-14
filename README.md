@@ -169,7 +169,7 @@ cd ..
 #     Select android/ijkplayer
 #     Sync Project with Gradle Files
 #     Run -> Edit Configurations -> Debugger -> Symbol Directories
-#     Add "ijkplayer-armv7a/.externalNativeBuild/ndkBuild/release/obj/local/armeabi-v7a" to Symbol Directories
+#     Add "ijkplayer-armv7a/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" to Symbol Directories
 #     Run -> Debug 'ijkplayer-example'
 #     if you want to reverse patches:
 #     sh patch-debugging-with-lldb.sh reverse armv7a
