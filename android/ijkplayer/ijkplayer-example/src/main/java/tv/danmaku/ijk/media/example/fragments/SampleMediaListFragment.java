@@ -129,8 +129,8 @@ public class SampleMediaListFragment extends Fragment {
                 "    ]\n" +
                 "}";
 
-        mAdapter.addItem(manifest_string, "las test");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8", "bipbop basic master playlist");
+        //mAdapter.addItem(manifest_string, "las test");
+        mAdapter.addItem("/sdcard/ATest/bbb_sunflower_1080p_60fps_normal.mp4", "big buck bunny");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8", "bipbop basic 400x300 @ 232 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8", "bipbop basic 640x480 @ 650 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8", "bipbop basic 640x480 @ 1 Mbps");
